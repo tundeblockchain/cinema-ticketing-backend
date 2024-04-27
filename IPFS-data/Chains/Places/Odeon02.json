@@ -1,0 +1,31 @@
+{
+   "PlaceId":"7019e469-ecbc-445b-b6e8-7f9009f7dc49",
+   "CinemaId":"0e84bd01-6261-4113-8661-82cdcef1fe7b",
+   "Name": "Odeon - Greenwich",
+   "City":"London",
+   "Postcode": "SE10 0QJ",
+   "Parking": true,
+   "IMAX": true,
+   "Screens": [
+		{
+		   "ScreenId":"448dc74b-acff-4ad5-8ee9-075d8c3157ca",
+		   "PlaceID":"7019e469-ecbc-445b-b6e8-7f9009f7dc49",
+		   "ScreenNumber": 1,
+		   "IMAX": true,
+		   "IMAXAudio": true,
+		   "DolbyAtmos": true,
+		   "Accessibiity": true,
+		   "3D": true
+		},
+		{
+		   "ScreenId":"265b8438-701d-446c-98f6-575c823a07e3",
+		   "PlaceID":"7019e469-ecbc-445b-b6e8-7f9009f7dc49",
+		   "ScreenNumber": 2,
+		   "IMAX": false,
+		   "IMAXAudio": false,
+		   "DolbyAtmos": true,
+		   "Accessibiity": true,
+		   "3D": true
+		}
+	]	
+}

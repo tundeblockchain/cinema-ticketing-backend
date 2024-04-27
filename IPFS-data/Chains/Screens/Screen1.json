@@ -1,0 +1,62 @@
+{
+   "ScreenId":"448dc74b-acff-4ad5-8ee9-075d8c3157ca",
+   "PlaceID":"7019e469-ecbc-445b-b6e8-7f9009f7dc49",
+   "ScreenNumber":1,
+   "IMAX":true,
+   "IMAXAudio":true,
+   "DolbyAtmos":true,
+   "Accessibiity":true,
+   "3D":true,
+   "ScreenTimes":[
+	{
+         "Title":"Dune 2",
+         "FilmId":"e8892bcb-cc83-493d-964a-ce48b8e2d157",
+         "Time":"09:00"
+    },
+    {
+         "Title":"Dune 2",
+         "FilmId":"e8892bcb-cc83-493d-964a-ce48b8e2d157",
+         "Time":"13:00"
+    },
+    {
+         "Title":"Dune 2",
+         "FilmId":"e8892bcb-cc83-493d-964a-ce48b8e2d157",
+         "Time":"17:00"
+    },
+    {
+         "Title":"Dune 2",
+         "FilmId":"e8892bcb-cc83-493d-964a-ce48b8e2d157",
+         "Time":"19:00"
+    },
+    {
+         "Title":"Dune 2",
+         "FilmId":"e8892bcb-cc83-493d-964a-ce48b8e2d157",
+         "Time":"21:00"
+    },
+	{
+         "Title":"Kung Fu Panda 4",
+         "FilmId":"7f1a045b-26e7-4127-bfef-58ce9c4103e6",
+         "Time":"09:30"
+    },
+	{
+         "Title":"Kung Fu Panda 4",
+         "FilmId":"7f1a045b-26e7-4127-bfef-58ce9c4103e6",
+         "Time":"10:30"
+    },
+	{
+         "Title":"Kung Fu Panda 4",
+         "FilmId":"7f1a045b-26e7-4127-bfef-58ce9c4103e6",
+         "Time":"14:30"
+    },
+	{
+         "Title":"Kung Fu Panda 4",
+         "FilmId":"7f1a045b-26e7-4127-bfef-58ce9c4103e6",
+         "Time":"15:30"
+    },
+	{
+         "Title":"Back To Black",
+         "FilmId":"4a69542e-1864-4bec-8dd9-fb888dfdc4a3",
+         "Time":"20:00"
+    }
+   ]
+}

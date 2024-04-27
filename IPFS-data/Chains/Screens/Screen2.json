@@ -1,0 +1,73 @@
+{
+   "ScreenId":"265b8438-701d-446c-98f6-575c823a07e3",
+   "PlaceID":"7019e469-ecbc-445b-b6e8-7f9009f7dc49",
+   "ScreenNumber": 2,
+   "IMAX": false,
+   "IMAXAudio": false,
+   "DolbyAtmos": true,
+   "Accessibiity": true,
+   "3D": true,
+   "ScreenTimes": [
+	{
+		"Title": "Dune 2", 
+		"FilmId": "e8892bcb-cc83-493d-964a-ce48b8e2d157", 
+		"Time": "10:00"
+	},
+	{
+		"Title": "Dune 2", 
+		"FilmId": "e8892bcb-cc83-493d-964a-ce48b8e2d157",
+		"Time": "12:00"
+	},
+	{
+		"Title": "Dune 2", 
+		"FilmId": "e8892bcb-cc83-493d-964a-ce48b8e2d157", 
+		"Time": "14:00"
+	},
+	{
+		"Title": "Dune 2", 
+		"FilmId": "e8892bcb-cc83-493d-964a-ce48b8e2d157",
+		"Time": "16:00"
+	},
+	{
+		"Title": "Dune 2", 
+		"FilmId": "e8892bcb-cc83-493d-964a-ce48b8e2d157", 
+		"Time": "18:00"
+	},
+	{
+         "Title":"Back To Black",
+         "FilmId":"4a69542e-1864-4bec-8dd9-fb888dfdc4a3",
+         "Time":"11:00"
+    },
+	{
+         "Title":"Back To Black",
+         "FilmId":"4a69542e-1864-4bec-8dd9-fb888dfdc4a3",
+         "Time":"09:00"
+    },
+	{
+         "Title":"Back To Black",
+         "FilmId":"4a69542e-1864-4bec-8dd9-fb888dfdc4a3",
+         "Time":"17:00"
+    },
+	{
+         "Title":"GODZILLA X KONG: THE NEW EMPIRE",
+         "FilmId":"efeef279-7851-4f66-a708-43b6636388e9",
+         "Time":"13:00"
+    },
+	{
+         "Title":"GODZILLA X KONG: THE NEW EMPIRE",
+         "FilmId":"efeef279-7851-4f66-a708-43b6636388e9",
+         "Time":"15:00"
+    },
+	{
+         "Title":"GODZILLA X KONG: THE NEW EMPIRE",
+         "FilmId":"efeef279-7851-4f66-a708-43b6636388e9",
+         "Time":"20:00"
+    },
+	{
+         "Title":"GODZILLA X KONG: THE NEW EMPIRE",
+         "FilmId":"efeef279-7851-4f66-a708-43b6636388e9",
+         "Time":"22:00"
+    }
+	
+   ]
+}

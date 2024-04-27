@@ -1,0 +1,34 @@
+{
+   "FilmId":"4a69542e-1864-4bec-8dd9-fb888dfdc4a3",
+   "Title":"Back To Black",
+   "Description": "BACK TO BLACK will focus on Amy’s extraordinary genius, creativity and honesty that infused everything she did. A journey that took her from the craziness and colour of 90’s Camden High Street to global adoration - and back again, BACK TO BLACK crashes through the looking glass of celebrity to watch this journey from behind the mirror, to see what Amy saw, to feel what she felt.",
+   "Directors":[
+		{
+		   "DirectorId":"b359605d-1e37-4bf3-ac5c-bb60f0d67ced",
+		   "Name":"Sam Taylor-Johnson"
+		}
+   ],
+   "Writers":[
+		{
+		   "DirectorId":"b359605d-1e37-4bf3-ac5c-bb60f0d67ced",
+		   "Name":"Sam Taylor-Johnson"
+		}
+   ],
+   "Actors":[
+		{
+		   "ActorId":"c6d2b6b3-5945-401b-8614-4ac3c2850dd8",
+		   "Name":"Marisa Abela",
+		   "Height":"5′ 5″ (1.65 m)",
+		   "DOB":"07-12-1996"
+		},
+		{	
+		   "ActorId":"22a58746-2a75-40a3-ae16-a67a520ce060",
+		   "Name":"Eddie Marsan",
+		   "Height":"5′ 8½″ (1.74 m)",
+		   "DOB":"09-06-1968"
+		}
+   ],
+   "Year":2024,
+   "ImageUri": "https://powder-saddle-union.quicknode-ipfs.com/ipfs/QmVYzpFhzZvxf7BUAxHebYNAK4pmDWY5HJUXyzap2rRRnn",
+   "AlternativeImageUri": "https://powder-saddle-union.quicknode-ipfs.com/ipfs/QmVYzpFhzZvxf7BUAxHebYNAK4pmDWY5HJUXyzap2rRRnn"
+}

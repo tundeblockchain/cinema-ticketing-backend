@@ -1,0 +1,40 @@
+{
+   "FilmId":"e8892bcb-cc83-493d-964a-ce48b8e2d157",
+   "Title":"Dune: Part Two",
+   "Description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, he endeavors to prevent a terrible future only he can foresee.",
+   "Directors":[
+		{
+		   "DirectorId":"c7b49cc7-b3f3-4be1-9e3b-c60dc5d33ea4",
+		   "Name":"Denis Villeneuve"
+		}
+   ],
+   "Writers":[
+		{
+		   "DirectorId":"c7b49cc7-b3f3-4be1-9e3b-c60dc5d33ea4",
+		   "Name":"Denis Villeneuve"
+		}
+   ],
+   "Actors":[
+		{
+		   "ActorId":"8e73891b-57f1-4b3b-b970-7ca73bed3b71",
+		   "Name":"Timothée Chalamet",
+		   "Height":"5′ 10' (1.78 m)",
+		   "DOB":"27-12-1995"
+		},
+		{	
+		   "ActorId":"e60d11f4-973b-489a-9939-6d792b218575",
+		   "Name":"Zendaya",
+		   "Height":"5′ 10' (1.78 m)",
+		   "DOB":"01-09-1996"
+		},
+		{
+		   "ActorId":"eed08276-506e-4ab1-9edf-846b52abd788",
+		   "Name":"Rebecca Ferguson",
+		   "Height":"5′ 5' (1.65 m)",
+		   "DOB":"19-10-1983"
+		}
+   ],
+   "Year":2024,
+   "ImageUri": "https://quicknode.quicknode-ipfs.com/ipfs/QmVnxmDyXmKpnewTdUmcCBsr4Xu9BqacXYaZJSZ7U92GMh",
+   "AlternativeImageUri": "https://dunenewsnet.com/wp-content/uploads/2023/05/Dune-Part-Two-Movie-Poster-Tease-feature.jpg"
+}

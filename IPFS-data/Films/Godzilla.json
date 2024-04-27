@@ -1,0 +1,40 @@
+{
+   "FilmId":"efeef279-7851-4f66-a708-43b6636388e9",
+   "Title":"GODZILLA X KONG: THE NEW EMPIRE",
+   "Description": "The epic battle continues! Legendary Pictures’ cinematic Monsterverse follows up the explosive showdown of “Godzilla vs. Kong” with an all-new adventure that pits the almighty Kong and the fearsome Godzilla against a colossal undiscovered threat hidden within our world, challenging their very existence—and our own. “Godzilla x Kong: The New Empire” delves further into the histories of these Titans and their origins, as well as the mysteries of Skull Island and beyond, while uncovering the mythic battle that helped forge these extraordinary beings and tied them to humankind forever.",
+   "Directors":[
+		{
+		   "DirectorId":"32ffa9b9-3ae3-4118-a187-517d0f42e599",
+		   "Name":"Adam Wingard"
+		}
+   ],
+   "Writers":[
+		{
+		   "DirectorId":"32ffa9b9-3ae3-4118-a187-517d0f42e599",
+		   "Name":"Adam Wingard"
+		}
+   ],
+   "Actors":[
+		{
+		   "ActorId":"55c19d2e-77ee-478b-8e86-1883d8edea3b",
+		   "Name":"Rebecca Hall",
+		   "Height":"5′ 10' (1.78 m)",
+		   "DOB":"03-05-1982"
+		},
+		{	
+		   "ActorId":"21d04abb-e3aa-4713-b2b9-5b3f631636e6",
+		   "Name":"Dan Stevens",
+		   "Height":"6′ (1.83 m)",
+		   "DOB":"10-10-1982"
+		},
+		{
+		   "ActorId":"307af971-c628-4fd4-a76c-cac0bff49513",
+		   "Name":"Brian Tyree Henry",
+		   "Height":"6′ 2″ (1.88 m)",
+		   "DOB":"31-03-1982"
+		}
+   ],
+   "Year":2024,
+   "ImageUri": "https://powder-saddle-union.quicknode-ipfs.com/ipfs/QmZFrna7dMcAUyDdExMt2NqAd93oYYt9zeEU8PnFkLx2wE",
+   "AlternativeImageUri": "https://powder-saddle-union.quicknode-ipfs.com/ipfs/QmeysB1FgjKxcxDvgPhTNBnXzityJ6BBW7eYS4VE57PP9f"
+}

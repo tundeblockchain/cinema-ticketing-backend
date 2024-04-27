@@ -1,0 +1,40 @@
+{
+   "FilmId":"7f1a045b-26e7-4127-bfef-58ce9c4103e6",
+   "Title":"Kung Fu Panda 4",
+   "Description": "After Po is tapped to become the Spiritual Leader of the Valley of Peace, he needs to find and train a new Dragon Warrior, while a wicked sorceress plans to re-summon all the master villains whom Po has vanquished to the spirit realm.",
+   "Directors":[
+		{
+		   "DirectorId":"cb6352ab-6368-4fe7-aeb7-68b13828a957",
+		   "Name":"Mike Mitchell"
+		}
+   ],
+   "Writers":[
+		{
+		   "DirectorId":"cb6352ab-6368-4fe7-aeb7-68b13828a957",
+		   "Name":"Mike Mitchell"
+		}
+   ],
+   "Actors":[
+		{
+		   "ActorId":"c0960693-684e-4c27-8e00-c2d11cdb6f0f",
+		   "Name":"Jack Black",
+		   "Height":"5′ 6″ (1.68 m)",
+		   "DOB":"28-08-1969"
+		},
+		{	
+		   "ActorId":"a1bf3460-70b4-4cd4-ab45-dd6bd4d55830",
+		   "Name":"Awkwafina",
+		   "Height":"5′ 1″ (1.55 m)",
+		   "DOB":"02-06-1988"
+		},
+		{
+		   "ActorId":"0f22dd0b-c139-4ddb-ac07-6f8bd46b39bb",
+		   "Name":"Viola Davis",
+		   "Height":"5′ 5″ (1.65 m)",
+		   "DOB":"11-08-1965"
+		}
+   ],
+   "Year":2024,
+   "ImageUri": "https://powder-saddle-union.quicknode-ipfs.com/ipfs/QmbKAkABAGbFyC3oFEnoE694Td8Cr4CdeVrTK8QYijf7bx",
+   "AlternativeImageUri": "https://powder-saddle-union.quicknode-ipfs.com/ipfs/QmbyXAL1w9nRpPLrxUKg3f1pQ2jekGriThTqEdfZFTyAGd"
+}

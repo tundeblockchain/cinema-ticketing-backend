@@ -10,29 +10,29 @@ import * as Contracts from "./index.js";
 
 declare module "@nomicfoundation/hardhat-ethers/types" {
   interface HardhatEthersHelpers extends HardhatEthersHelpersBase {
-  getContractFactory(name: 'CinemaMarket', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.CinemaMarket__factory>
+  getContractFactory(name: 'CinemaInfo', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.CinemaInfo__factory>
+getContractFactory(name: 'CinemaMarket', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.CinemaMarket__factory>
 getContractFactory(name: 'CinemaTicket', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.CinemaTicket__factory>
-getContractFactory(name: 'Lock', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Lock__factory>
 getContractFactory(name: 'USDC', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.USDC__factory>
-getContractFactory(name: 'CinemaInfo', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.CinemaInfo__factory>
+getContractFactory(name: 'Lock', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.Lock__factory>
 
-  getContractAt(name: 'CinemaMarket', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.CinemaMarket>
+  getContractAt(name: 'CinemaInfo', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.CinemaInfo>
+getContractAt(name: 'CinemaMarket', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.CinemaMarket>
 getContractAt(name: 'CinemaTicket', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.CinemaTicket>
-getContractAt(name: 'Lock', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Lock>
 getContractAt(name: 'USDC', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.USDC>
-getContractAt(name: 'CinemaInfo', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.CinemaInfo>
+getContractAt(name: 'Lock', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.Lock>
 
-  deployContract(name: 'CinemaMarket', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CinemaMarket>
+  deployContract(name: 'CinemaInfo', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CinemaInfo>
+deployContract(name: 'CinemaMarket', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CinemaMarket>
 deployContract(name: 'CinemaTicket', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CinemaTicket>
-deployContract(name: 'Lock', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Lock>
 deployContract(name: 'USDC', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.USDC>
-deployContract(name: 'CinemaInfo', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CinemaInfo>
+deployContract(name: 'Lock', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Lock>
 
-  deployContract(name: 'CinemaMarket', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CinemaMarket>
+  deployContract(name: 'CinemaInfo', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CinemaInfo>
+deployContract(name: 'CinemaMarket', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CinemaMarket>
 deployContract(name: 'CinemaTicket', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CinemaTicket>
-deployContract(name: 'Lock', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Lock>
 deployContract(name: 'USDC', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.USDC>
-deployContract(name: 'CinemaInfo', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CinemaInfo>
+deployContract(name: 'Lock', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.Lock>
 
     // default types
     getContractFactory(

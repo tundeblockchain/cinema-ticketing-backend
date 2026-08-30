@@ -1,6 +1,5 @@
 import { config as dotEnvConfig } from "dotenv";
 dotEnvConfig();
-
 import { configVariable, defineConfig } from "hardhat/config";
 import hardhatToolboxMochaEthers from "@nomicfoundation/hardhat-toolbox-mocha-ethers";
 

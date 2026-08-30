@@ -67,7 +67,6 @@ const run = async () => {
     "https://ipfs.io/ipfs/QmbqXBpZoFnvRNED4Ai9WiKiJb1ATBbWEv3pARnhc55BjQ?filename=Rebecca%20Ferguson.json"
   );
   await actor3Tx.wait();
-
   const films = await cinemaInfoContract.totalNumberOfFilms();
   const actors = await cinemaInfoContract.totalNumberOfActors();
 

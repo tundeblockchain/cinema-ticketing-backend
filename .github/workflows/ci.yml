@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Compile contracts
+        run: npx hardhat compile
+        env:
+          HARDHAT_VAR_PROVIDER_WSS: "wss://dummy.example.com"
+          HARDHAT_VAR_PRIVATEKEY: "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+          PROVIDER_WSS: "wss://dummy.example.com"
+          PRIVATE_KEY: "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+
+      - name: Run tests
+        run: npx hardhat test
+        env:
+          HARDHAT_VAR_PROVIDER_WSS: "wss://dummy.example.com"
+          HARDHAT_VAR_PRIVATEKEY: "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+          PROVIDER_WSS: "wss://dummy.example.com"
+          PRIVATE_KEY: "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+
+      - name: Security audit (non-blocking)
+        run: npm audit --audit-level=moderate || true
+        continue-on-error: true

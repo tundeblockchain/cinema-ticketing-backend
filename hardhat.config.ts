@@ -1,14 +1,15 @@
 import { config as dotEnvConfig } from "dotenv";
 dotEnvConfig();
-import { HardhatUserConfig, vars } from "hardhat/config";
-import "@nomicfoundation/hardhat-toolbox";
-const PROVIDER_WSS = vars.get("PROVIDER_WSS");
-const PRIVATEKEY = vars.get("PRIVATEKEY");
 
-const config: HardhatUserConfig = {
+import { configVariable, defineConfig } from "hardhat/config";
+import hardhatToolboxMochaEthers from "@nomicfoundation/hardhat-toolbox-mocha-ethers";
+
+export default defineConfig({
+  plugins: [hardhatToolboxMochaEthers],
   solidity: {
-    version: "0.8.24", // Note that this only has the version number
+    version: "0.8.24",
     settings: {
+      evmVersion: "cancun",
       optimizer: {
         enabled: true,
         runs: 200,
@@ -17,10 +18,10 @@ const config: HardhatUserConfig = {
   },
   networks: {
     fuji: {
-      url: process.env.PROVIDER_WSS,
-      accounts: [process.env.PRIVATE_KEY as string],
+      type: "http",
+      chainType: "l1",
+      url: configVariable("PROVIDER_WSS"),
+      accounts: [configVariable("PRIVATE_KEY")],
     },
   },
-};
-
-export default config;
+});

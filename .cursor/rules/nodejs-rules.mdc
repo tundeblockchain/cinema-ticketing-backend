@@ -1,0 +1,88 @@
+---
+description: Node.js and TypeScript standards for Hardhat config, tests, and scripts.
+globs:
+  - "**/*.js"
+  - "**/*.mjs"
+  - "**/*.cjs"
+  - "**/*.ts"
+  - "**/package.json"
+  - "hardhat.config.ts"
+alwaysApply: false
+---
+
+# Node.js and TypeScript Standards for Hardhat
+
+## Change Philosophy
+
+- Prefer the smallest change that accomplishes the goal
+- Do not invent APIs, environment variables, or configuration options that do not exist
+- If unsure whether something exists, verify by reading the relevant source code
+
+## TypeScript Standards
+
+### Strict Typing
+
+- Use `unknown` instead of `any` wherever possible
+- Use `import type` for type-only imports to reduce bundle size
+- Never use `var`; prefer `const`, then `let` if reassignment is necessary
+- Enable strict mode in tsconfig.json
+
+### Async/Await
+
+- Always use async/await for asynchronous operations
+- Never use raw `.then()` chains when async/await is available
+- Handle errors with try/catch blocks, not `.catch()`
+
+## Security
+
+### Never Hard-Code Secrets
+
+- Never hard-code `PRIVATE_KEY`, `PRIVATEKEY`, `PROVIDER_WSS`, or any other secrets
+- Always use environment variables via `dotenv` or `hardhat/config` vars
+- Secrets must come from `.env` files (excluded from git) or Hardhat vars
+
+### Example: Correct Secret Handling
+
+```typescript
+import { config as dotEnvConfig } from "dotenv";
+dotEnvConfig();
+import { vars } from "hardhat/config";
+
+const PROVIDER_WSS = vars.get("PROVIDER_WSS");
+const PRIVATEKEY = vars.get("PRIVATEKEY");
+```
+
+## Dependency Management
+
+### npm Lockfile
+
+- Commit `package-lock.json` to version control
+- Run `npm ci` in CI environments instead of `npm install`
+- Never manually edit `package-lock.json`
+
+## Testing
+
+### Test Requirements
+
+- Write tests for all new functionality
+- Tests must pass before merging
+- Use the Hardhat testing framework with Chai matchers
+
+### Running Tests
+
+```bash
+npx hardhat compile
+npx hardhat test
+```
+
+## Commands Reference
+
+- Compile contracts: `npx hardhat compile`
+- Run tests: `npx hardhat test`
+- Clean artifacts: `npx hardhat clean`
+
+## Pull Request Guidelines
+
+- Every PR must list commands actually run during development/testing
+- Do not claim to have run commands that were not executed
+- Include test results in PR descriptions when applicable
